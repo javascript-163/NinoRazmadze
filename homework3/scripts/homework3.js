@@ -2,9 +2,9 @@
 function calculateSquare(num) {
     return num * num;
   }
-
+  
   console.log(calculateSquare(9));
-
+  
   const calc = (num) => {
     return num * num;
   };
@@ -32,15 +32,15 @@ function calculateSquare(num) {
       alert("the year is not leap");
     }
   }
-
+  
   checkLeapYear();
-
+  
   // 5;
   function calculator() {
     const num1 = Number(prompt("enter number"));
     const num2 = Number(prompt("enter another number"));
     const operator = prompt("enter arithmetic operator");
-
+  
     if (operator === "+") {
       alert(num1 + num2);
     } else if (operator === "-") {
