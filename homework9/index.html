@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      textarea {
+        width: 50%;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .filereader {
+        display: flex;
+        flex-direction: row;
+      }
+      button {
+        width: 70px;
+        height: 20px;
+      }
+    </style>
+
+    <textarea id="textInput"></textarea>
+    <div class="filereader">
+      <input  type="file" id="fileInput" />
+      <button onclick="LoadFile()">Load</button>
+    </div>
+
+    <div>
+      <p id="answer1"></p>
+      <p id="answer2"></p>
+      <p id="answer3"></p>
+      <p id="answer4"></p>
+      <p id="answer5"></p>
+    </div>
+  
+
+    <script src="scriptse/myscripts.js"></script>
+  </body>
+</html>
